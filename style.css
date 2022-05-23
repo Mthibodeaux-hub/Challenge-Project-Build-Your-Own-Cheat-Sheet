@@ -100,3 +100,14 @@ td, tr{
   color: #1B7F79;
 }
 
+/*Media Queries for better viewports--------------------------*/
+
+@media (max-width: 400px) {
+  main{
+  width: 100%;
+
+}
+}
+
+
+
