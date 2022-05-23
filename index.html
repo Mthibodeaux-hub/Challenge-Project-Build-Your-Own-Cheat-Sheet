@@ -1,12 +1,98 @@
 <html>
   <head>
- <title>TEST WEBSITE</title>
-    <link rel="stylesheet" href="style.css" >
+    <link rel="stylesheet" href="./styles.css" type="text/css">
   </head>
-<body>
-  <h1 id="main-title">TESTING TESTING</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
-</body>
- 
+  <body>
+    <div id="body-wrap">
+          <header>
+            <h1 id="top-header">HTML REFERENCE</h1>
+          </header>
+          <main>
+            <section>
+              <h2>Semantic Elements</h2>
+              <p>A semantic element clearly describes its meaning to both the browser and the developer. Semantic elments are used to clearly define different parts of a webpage.</p>
+              <table>
+                <thead>
+                  <th>Tag</th>
+                  <th>Description</th>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="tag"><span class="code">&lt;article&gt;</span></td>
+                    <td>Represents a self-contained composition in a document, page, application, or site, which is intended to be independently distributable or reusable (e.g., in syndication). Examples include: a forum post, a magazine or newspaper article, or a blog entry, a product card, a user-submitted comment, an interactive widget or gadget, or any other independent item of content.</td>
+                  </tr>
+                  <tr>
+                    <td class="tag"><span class="code">&lt;aside&gt;</span></td>
+                    <td>Represents a portion of a document whose content is only indirectly related to the document's main content. Asides are frequently presented as sidebars or call-out boxes.</td>
+                  </tr>
+                  <tr>
+                    <td class="tag"><span class="code">&lt;details&gt;</span></td>
+                    <td>Creates a disclosure widget in which information is visible only when the widget is toggled into an "open" state. A summary or label must be provided using the &lt;summary&gt; element.</td>
+                  </tr>
+                  <tr>
+                    <td class="tag"><span class="code">&lt;figcaption&gt;</span></td>
+                    <td>Represents a caption or legend describing the rest of the contents of its parent &lt;figure&gt; element</td>
+                  </tr>
+                  <tr>
+                    <td class="tag"><span class="code">&lt;figure&gt;</span></td>
+                    <td> Represents self-contained content, potentially with an optional caption, which is specified using the &lt;figcaption&gt; element. The figure, its caption, and its contents are referenced as a single unit.</td>
+                  </tr>
+                  <tr>
+                    <td class="tag"><span class="code">&lt;footer&gt;</span></td>
+                    <td> Represents a footer for its nearest ancestor sectioning content or sectioning root element. A &lt;footer&gt; typically contains information about the author of the section, copyright data or links to related documents.</td>
+                  </tr>
+                   <tr>
+                    <td class="tag"><span class="code">&lt;time&gt;</span></td>
+                    <td>Element represents a specific period in time. It may include the datetime attribute to translate dates into machine-readable format, allowing for better search engine results or custom features such as reminders.</td>
+                  </tr>
+                   <tr>
+                    <td class="tag"><span class="code">&lt;mark&gt;</span></td>
+                    <td>Element represents text which is marked or highlighted for reference or notation purposes, due to the marked passage's relevance or importance in the enclosing context.
+
+</td>
+                  </tr>
+                   <tr>
+                    <td class="tag"><span class="code">&lt;header&gt;</span></td>
+                    <td>Element represents introductory content, typically a group of introductory or navigational aids. It may contain some heading elements but also a logo, a search form, an author name, and other elements.</td>
+                  </tr>
+                   <tr>
+                    <td class="tag"><span class="code">&lt;nav&gt;</span></td>
+                    <td>Element represents a section of a page whose purpose is to provide navigation links, either within the current document or to other documents. Common examples of navigation sections are menus, tables of contents, and indexes.</td>
+                  </tr>
+                   <tr>
+                    <td class="tag"><span class="code">&lt;main&gt;</span></td>
+                    <td>Element represents the dominant content of the &lt;body&gt; of a document. The main content area consists of content that is directly related to or expands upon the central topic of a document, or the central functionality of an application.</td>
+                  </tr>
+                   <tr>
+                    <td class="tag"><span class="code">&lt;section&gt;</span></td>
+                    <td>Represents a generic standalone section of a document, which doesn't have a more specific semantic element to represent it. Sections should always have a heading, with very few exceptions.</td>
+                  </tr>
+                   <tr>
+                    <td class="tag"><span class="code">&lt;summary&gt;</span></td>
+                    <td>Element specifies a summary, caption, or legend for a &lt;details&gt; element's disclosure box. Clicking the &lt;summary&gt; element toggles the state of the parent &lt;details&gt; element open and closed.</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h3>Examples of non-semantic elements</h3> 
+              <table>
+                <thead>
+                    <th>Tag
+                    </th>
+                    <th>Description
+                    </th>
+                  </thead>
+                  <tr>
+                    <td class="tag"><span class="code">&lt;div&gt;</span></td>
+                    <td>The generic container for flow content. It has no effect on the content or layout until styled in some way using CSS.</td>
+                    </tr>
+                    <tr>
+                    <td class="tag"><span class="code">&lt;span&gt;</span></td>
+                    <td>A generic inline container for phrasing content, which does not inherently represent anything. It can be used to group elements for styling purposes. </td>
+                    </tr>
+                </table>
+        </section>
+    </main>
+</div>
+
+  </body>
 </html>
