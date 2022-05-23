@@ -56,16 +56,15 @@ p{
 main section h2 {
     font-family: 'Roboto Slab', serif;
     font-weight: 400;
-    font-size: 28px;
+    font-size: 32px;
     margin: 10px auto;
 }
 
 /*Table Styles--------------------------*/
-table{
+
+table {
  width: 100%;
 }
-
-
 
 thead{
   background-color: #FF4858;
