@@ -42,7 +42,106 @@ blockquote, q {
 blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
-	content: none;
+	content: none;/*Style sheet for HTML Semantic Elements Reference------*/
+/*Add Goolgle fonts--------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300;400;800&display=swap');
+
+/*Global Styles--------------------------*/
+body{
+  background-color: #E3FAFA;
+  color: #636B6B;
+  font-family: 'Roboto Slab', serif;
+}
+
+#body-wrap{
+  display: block;
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header{
+  display: block;
+  position: relative;
+  width: 50%;
+  margin: 0 auto;
+}
+
+main{
+  display: block;
+  position: relative;
+  width: 50%;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+}
+
+p{
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+}
+
+/*Headings--------------------------*/
+
+#top-header {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 800;
+  letter-spacing: 2px;
+  color: #348888;
+}
+
+main section h2 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+}
+
+/*Table Styles--------------------------*/
+table{
+ width: 100%;
+}
+
+
+
+thead{
+  background-color: #FF4858;
+  font-family: 'Roboto', sans-serif;
+}
+
+th{
+  color: #E3FAFA;
+  padding: 10px 10px;
+}
+
+tr{
+
+}
+
+td{
+  padding: 5px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+}
+
+td, tr{
+  border: 1px solid #FF4858;
+}
+
+.tag{
+  background-color: #FFF;
+  font-family: 'Courier New', sans-serif;
+}
+
+
+.code{
+  color: #1B7F79;
+}
+
+
+
+
 }
 table {
 	border-collapse: collapse;
