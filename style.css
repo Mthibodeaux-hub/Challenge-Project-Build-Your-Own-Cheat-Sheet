@@ -142,7 +142,7 @@ q:before, q:after {
 	content: '';
 	content: none;
 	
-/*Style sheet for HTML Semantic Elements Reference------*/
+/*Custom styles for HTML Semantic Elements Reference------*/
 
 
 /*Global Styles--------------------------*/
@@ -236,14 +236,5 @@ td, tr{
 
 .code{
   color: #1B7F79;
-}
-
-
-
-
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
 }
 
