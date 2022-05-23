@@ -96,13 +96,16 @@ p{
 #top-header {
   font-family: 'Roboto Slab', serif;
   font-weight: 800;
+  font-size: 2em;
   letter-spacing: 2px;
   color: #348888;
+  margin: 20px auto;
 }
 
 main section h2 {
     font-family: 'Roboto Slab', serif;
     font-weight: 400;
+	margin: 10px auto;
 }
 
 /*Table Styles--------------------------*/
