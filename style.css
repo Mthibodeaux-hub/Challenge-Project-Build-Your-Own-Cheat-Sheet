@@ -102,9 +102,16 @@ td, tr{
 
 /*Media Queries for better viewports--------------------------*/
 
+@media (max-width: 1024px) {
+      main{
+      width: 70%;
+
+    }
+}
+
 @media (max-width: 700px) {
       main{
-      width: 75%;
+      width: 85%;
 
     }
 }
