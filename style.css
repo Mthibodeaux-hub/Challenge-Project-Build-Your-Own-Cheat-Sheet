@@ -22,7 +22,6 @@ header{
   position: relative;
   width: 50%;
   margin: 0 auto;
-  padding-top: 20px;
 }
 
 main{
@@ -52,6 +51,7 @@ p{
   letter-spacing: 2px;
   color: #348888;
   margin: 20px auto;
+  padding-top: 20px;
 }
 
 main section h2 {
