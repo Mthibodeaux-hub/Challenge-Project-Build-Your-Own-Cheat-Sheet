@@ -53,10 +53,6 @@ table {
 
 /*Style sheet for HTML Semantic Elements Reference------*/
 
-/*Add Goolgle fonts--------------------------*/
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300;400;800&display=swap');
-
 /*Global Styles--------------------------*/
 body{
   background-color: #E3FAFA;
